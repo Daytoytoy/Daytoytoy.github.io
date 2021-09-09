@@ -13,18 +13,17 @@
       <pubDate>Wed, 08 Sep 2021 22:33:44 +0800</pubDate>
       
       <guid>http://example.org/posts/my-first-doc/</guid>
-      <description>Build a website this guide help you to build a webstie with hugo.</description>
+      <description>My first try.</description>
     </item>
     
     <item>
-      <title>My second Doc</title>
-      <link>http://example.org/posts/my-first-doc-copy/</link>
+      <title>My Second Doc</title>
+      <link>http://example.org/posts/my-second-doc/</link>
       <pubDate>Wed, 08 Sep 2021 22:33:44 +0800</pubDate>
       
-      <guid>http://example.org/posts/my-first-doc-copy/</guid>
-      <description>Build a website this guide help you to build a webstie with hugo. 111111111111 22222 5555 6666 6
-6 7
-7 7 7</description>
+      <guid>http://example.org/posts/my-second-doc/</guid>
+      <description>Build A Static Site This guide will help you to build a static Site with Hugo, and upload it to Internet through GitHub.
+Prepare Enviroment Install Git It’s strongly recommonded you to install Git, then you can use the theme repository of Hugo in GitHub, and excute git conmmond to upload the site files to GitHub. You can obtain packges and doucuments in https://git-scm.com. If you had a account, skip this operate.</description>
     </item>
     
   </channel>
