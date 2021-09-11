@@ -8,22 +8,25 @@
     <language>en-us</language>
     <lastBuildDate>Wed, 08 Sep 2021 22:33:44 +0800</lastBuildDate><atom:link href="http://example.org/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Build A Static Site</title>
+      <link>http://example.org/posts/my-second-doc/</link>
+      <pubDate>Wed, 08 Sep 2021 22:33:44 +0800</pubDate>
+      
+      <guid>http://example.org/posts/my-second-doc/</guid>
+      <description>This guide will help you to build a static Site with Hugo, and upload it to Internet through GitHub.
+Prepare Enviroment Install Git It’s strongly recommonded you to install Git, then you can use the theme repository of Hugo in GitHub, and excute git conmmond to upload the site files to GitHub.
+You can obtain packges and doucuments in https://git-scm.com.
+If you had a account, skip this operate.
+Install Hugo Hugo can be installed in macOS, Windows and so on.</description>
+    </item>
+    
+    <item>
       <title>My First Doc</title>
       <link>http://example.org/posts/my-first-doc/</link>
       <pubDate>Wed, 08 Sep 2021 22:33:44 +0800</pubDate>
       
       <guid>http://example.org/posts/my-first-doc/</guid>
       <description>My first try.</description>
-    </item>
-    
-    <item>
-      <title>My Second Doc</title>
-      <link>http://example.org/posts/my-second-doc/</link>
-      <pubDate>Wed, 08 Sep 2021 22:33:44 +0800</pubDate>
-      
-      <guid>http://example.org/posts/my-second-doc/</guid>
-      <description>Build A Static Site This guide will help you to build a static Site with Hugo, and upload it to Internet through GitHub.
-Prepare Enviroment Install Git It’s strongly recommonded you to install Git, then you can use the theme repository of Hugo in GitHub, and excute git conmmond to upload the site files to GitHub. You can obtain packges and doucuments in https://git-scm.com. If you had a account, skip this operate.</description>
     </item>
     
   </channel>
