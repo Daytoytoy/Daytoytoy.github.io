@@ -186,7 +186,7 @@ Homebrew is package manager for macOS, can be installed from brew.sh.<br>
 </li>
 </ol>
 <h2 id="add-a-theme">Add a Theme </h2>
-<p>See themes.gohugo.io for a list of themes to consider. This example uses the beautiful Ananke theme.</p>
+<p>See <a href="url">themes.gohugo.io</a> for a list of themes to consider. This example uses the beautiful Ananke theme.</p>
 <ol>
 <li>
 <p>Navigate to the mydoc directory.<br>
@@ -194,8 +194,7 @@ Download the theme from GitHub and add it to your site’s themes directory:</
 <pre tabindex="0"><code>cd mydoc
 git init 
 git submodule add https://github.com/theNewDynamic/gohugo-theme-ananke.git themes/ananke
-</code></pre><p>``
-<img src="figures/git_clone_theme" alt="img"></p>
+</code></pre><p><img src="figures/git_clone_theme" alt="img"></p>
 </li>
 <li>
 <p>Then, add the theme to the site configuration:<br>
@@ -217,8 +216,7 @@ title: &quot;My First Doc&quot;
 date: 2021-09-08T22:33:44+08:00
 draft: true
 ---
-</code></pre><p>``</p>
-<blockquote>
+</code></pre><blockquote>
 <p>Drafts do not get deployed; once you finish a post, update the header of the post to say draft: false.</p>
 </blockquote>
 </li>
@@ -228,7 +226,7 @@ draft: true
 <li>Now, start the Hugo server with drafts enabled:<br>
 <code>hugo server -D</code><br>
 <img src="figures/hugo_server_d" alt="img"></li>
-<li>Navigate to your new site at <a href="url">http://localhost:1313/</a>.<br>
+<li>Navigate to your new site at <a href="url">http://localhost:<em>xxxx</em>/</a>.<br>
 Feel free to edit or add new content and simply refresh in browser to see changes quickly (You might need to force refresh in webbrowser, something like Ctrl-R usually works).</li>
 </ol>
 <h2 id="build-static-pages">Build static pages </h2>
@@ -261,19 +259,16 @@ Feel free to edit or add new content and simply refresh in browser to see change
 <li>Navigate to the public directory.
 <pre tabindex="0"><code>cd public
 git init
-</code></pre><p>``</p>
-</li>
+</code></pre></li>
 <li>Add and commit the files of current directory.
 <pre tabindex="0"><code>git add .
 git commit -m &quot;update commit&quot;
-</code></pre><p>``
-<img src="figures/git_commit" alt="img"></p>
+</code></pre><p><img src="figures/git_commit" alt="img"></p>
 </li>
 <li>Create a master branch and connect to github.
 <pre tabindex="0"><code>git branch -M master
 git remote add origin https://github.com/Daytoytoy/Daytoytoy.github.io.git
-</code></pre><p>``
-<img src="figures/git_connect_github" alt="img"></p>
+</code></pre><p><img src="figures/git_connect_github" alt="img"></p>
 </li>
 <li>push the files to github<br>
 <code>git push -u origin master</code><br>
